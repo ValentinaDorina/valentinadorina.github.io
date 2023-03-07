@@ -33,6 +33,7 @@
 
     .chatbot__btn:hover {
         background-color: #FFD700;
+
     }
 
 /* chatbot__tooltip */
@@ -62,13 +63,14 @@
     border-left-color: #FFD700;
     margin-top: -5px;
     right: -10px;
+
 }
 
 /* chatbot */
 .chatbot {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 500px;
     background-color: #FAFAD2;
     line-height: 1.2;
     color: #212529;
@@ -86,6 +88,7 @@
   transform: scale(0);
   transform-origin: right bottom;
   transition: transform 0.3s ease;
+
 }
 
 @media (max-width: 576px) {
@@ -103,13 +106,15 @@
 }
 
 #image{
-    object-fit: contain;
-    height: 80%;
-    width: 80%;
+  object-fit: contain;
+    background-size: cover ;
+    width: 100%;
     display: block;
-    margin: auto;
+    margin: 0 0 0 0;
     opacity: 100%
 }
+
+
 
 .chatbot__close {
   width: 20px;

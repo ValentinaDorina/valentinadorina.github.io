@@ -402,6 +402,6 @@ SimpleChatbot.createTemplate = function() {
 
 $(document).ready(function () {
     $('#hide-image').click(function () {
-        $('#hide-image').hide();
+        $('#hide-image').show();
     });
 });
