@@ -108,7 +108,7 @@
 #image{
   object-fit: contain;
     background-size: cover ;
-    width: 100%;
+    width: 99%;
     display: block;
     margin: 0 0 0 0;
     opacity: 100%
